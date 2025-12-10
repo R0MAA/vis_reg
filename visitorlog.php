@@ -83,7 +83,7 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <!--begin::User Image-->
-                <li class="user-header text-bg-primary">
+                <li class="user-header" style="background:#AFC1D0;">
                   <p>
                     Alexander Pierce - Web Developer
                   </p>
@@ -117,7 +117,7 @@
                   <div class="col-lg-12 col-6">
                     
                 <!--begin::Small Box Widget 2-->
-                <div class="small-box rounded-5 p-5 mt-5" style="background: #F3F6FA;">
+                <div class="small-box rounded-5 p-5 mb-5" style="background: #F3F6FA;">
                   <div class="inner">
                     <p>Visitors Today</p>
                     <h3>53<sup class="fs-5">%</sup></h3>
@@ -130,7 +130,7 @@
                   <div class="col-lg-12 col-6">
                     
                 <!--begin::Small Box Widget 2-->
-                <div class="small-box rounded-5 p-5 mt-5" style="background: #F3F6FA;">
+                <div class="small-box rounded-5 p-5 mb-5" style="background: #F3F6FA;">
                   <div class="inner">
                     <p>Visitors Today</p>
                     <h3>53<sup class="fs-5">%</sup></h3>
@@ -143,7 +143,7 @@
                   <div class="col-lg-12 col-6">
                     
                 <!--begin::Small Box Widget 2-->
-                <div class="small-box rounded-5 p-5 mt-5" style="background: #F3F6FA;">
+                <div class="small-box rounded-5 p-5 mb-5" style="background: #F3F6FA;">
                   <div class="inner">
                     <p>Visitors Today</p>
                     <h3>53<sup class="fs-5">%</sup></h3>
@@ -154,35 +154,67 @@
                 </div>
               </div>
               <div class="col-lg-10 col-6">
-            <h3>Dashboard</h3>
-            <div class="row rounded-5 p-3" style="background: #F3F6FA;">
-            <table class="table bg-opacity-10">
+            <form role="search">
+              <div class="row">
+                <div class="col-md-3 mb-3">
+                  <h3>Visitor Log</h3>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+                <div class="col-md-3 mb-3">
+                  <button class="btn text-white" style="background: #1C3F60;" type="submit">Search</button>
+                </div>
+                <div class="col-md-3 mb-3 d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn text-white" style="background: #1C3F60;" type="submit">Filter</button>
+                </div>
+            </div>
+            </form>
+            <div class="row rounded-5 py-3" style="background: #F3F6FA;">
+            <table class="table table-hover" style="background: #F3F6FA;">
             <thead>
                 <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time in</th>
+                <th scope="col">Time out</th>
+                <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>Mark Otto</td>
+                <td>MISS</td>
+                <td>Jan 4, 2025</td>
+                <td>10:00AM</td>
+                <td>11:35AM</td>
+                <td>:</td>
                 </tr>
                 <tr>
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>Jacob Thornton</td>
+                <td>MISS</td>
+                <td>Jan 4, 2025</td>
+                <td>10:00AM</td>
+                <td>11:35AM</td>
+                <td>:</td>
                 </tr>
                 <tr>
                 <th scope="row">3</th>
-                <td>John</td>
-                <td>Doe</td>
-                <td>@social</td>
+                <td>John Doe</td>
+                <td>MISS</td>
+                <td>Jan 4, 2025</td>
+                <td>10:00AM</td>
+                <td>11:35AM</td>
+                <td>:</td>
                 </tr>
             </tbody>
             </table>
@@ -194,7 +226,7 @@
       </main>
       <!--end::App Main-->
       <!--begin::Footer-->
-      <footer class="app-footer">
+      <footer class="app-footer" style="background: #ffffff;">
         <!--begin::Copyright-->
         <strong>
           Copyright &copy; 2014-2025&nbsp;.

@@ -117,7 +117,7 @@
                   <div class="col-lg-12 col-6">
                     
                 <!--begin::Small Box Widget 2-->
-                <div class="small-box rounded-5 p-5 mt-5" style="background: #F3F6FA;">
+                <div class="small-box rounded-5 p-5 mb-5" style="background: #F3F6FA;">
                   <div class="inner">
                     <p>Visitors Today</p>
                     <h3>53<sup class="fs-5">%</sup></h3>
@@ -130,7 +130,7 @@
                   <div class="col-lg-12 col-6">
                     
                 <!--begin::Small Box Widget 2-->
-                <div class="small-box rounded-5 p-5 mt-5" style="background: #F3F6FA;">
+                <div class="small-box rounded-5 p-5 mb-5" style="background: #F3F6FA;">
                   <div class="inner">
                     <p>Visitors Today</p>
                     <h3>53<sup class="fs-5">%</sup></h3>
@@ -143,7 +143,7 @@
                   <div class="col-lg-12 col-6">
                     
                 <!--begin::Small Box Widget 2-->
-                <div class="small-box rounded-5 p-5 mt-5" style="background: #F3F6FA;">
+                <div class="small-box rounded-5 p-5 mb-5" style="background: #F3F6FA;">
                   <div class="inner">
                     <p>Visitors Today</p>
                     <h3>53<sup class="fs-5">%</sup></h3>
@@ -226,7 +226,7 @@
       </main>
       <!--end::App Main-->
       <!--begin::Footer-->
-      <footer class="app-footer">
+      <footer class="app-footer" style="background: #ffffff;">
         <!--begin::Copyright-->
         <strong>
           Copyright &copy; 2014-2025&nbsp;.
